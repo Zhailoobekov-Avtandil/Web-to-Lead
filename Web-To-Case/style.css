@@ -1,0 +1,55 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+  box-sizing: border-box;
+    
+}
+
+.main{
+    width: 1200px;
+    height: 600px;
+    padding: 200px;
+    background-image: url('pexels.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 0 10px;
+    width: 450px;
+    height: 250px;
+}
+
+h1, h5, h4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: 0 0 10px 0;
+}
+
+input {
+    height: 25px;
+}
+
+.submit {
+    background-color: aqua;
+    width: 337px;
+    height: 30px;
+
+}
+
+.fullName {
+    margin-bottom: 10px;
+}
+
+.company {
+    margin-bottom: 10px
+}
+
+.city {
+    margin-bottom: 10px;
+}
